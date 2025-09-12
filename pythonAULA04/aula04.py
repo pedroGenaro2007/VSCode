@@ -38,23 +38,39 @@
 # elif cod >=25 and cod <=30:
 #     procedencia ="nordeste"
 #     print(preço)
-# if cod >=30:
-#     print("produto importado")
+# # if cod >=30:
+# #     print("produto importado")
 
-#ex02
-a = int(input("digite o valor de A: "))
-b = int(input("digite o valor de B: "))
-c = int(input("digite o valor de C: "))
+# #ex02
+# a = int(input("digite o valor de A: "))
+# b = int(input("digite o valor de B: "))
+# c = int(input("digite o valor de C: "))
 
-if a > b and a > c:
-    # print(f"o maior valor é A")
-    if b > c:  
-            print(a,b,c)
-    elif c > b:
-          print(a,c,b)
-elif b > a and b > c:
-    #   print (f"o maior valor é B: {b}")
-      if a > c:
-            print(b,c,a)
-elif c > a and c > b:
-        # print(f"o maior valor é C {c}")
+# if a > b and a > c:
+#     # print(f"o maior valor é A")
+#     if b > c:  
+#             print(a,b,c)
+#     elif c > b:
+#           print(a,c,b)
+# elif b > a and b > c:
+#     #   print (f"o maior valor é B: {b}")
+#       if a > c:
+#             print(b,c,a)
+# elif c > a and c > b:
+#         # print(f"o maior valor é C {c}")
+
+
+# ultimo = int(input("digite o ultimo digito da contagem: "))
+# x = 1
+# while x <= ultimo:
+#         print(x)
+#         x = x + 1
+
+# Soma = int(input("digite o ultimo digito da contagem: \n"))
+# x = 0
+# while x <= Soma:
+#         if x % 1 == 0: 
+#                 print(x)
+#         x = x + 1
+# print(f"Soma dos numeros é: {Soma}")
+
