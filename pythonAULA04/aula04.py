@@ -1,16 +1,17 @@
-# a = int(input("lado a: "))
-# b = int(input("lado b: "))
-# c = int(input("lado c: "))
-# if (a < b + c) and (b < a + c) and (c < a + b):
-#     if ( a == b) and (b == c):
-#         print("triangulo equilatero")
-#     else:
-#         if (a == b) or (a == c) or (b == c):
-#             print("triangulo isosceles")
-#         else:
-#             print("triangulo escaleno")
-# else:
-#         print("Não é triangulo")
+#exemplo
+a = int(input("lado a: "))
+b = int(input("lado b: "))
+c = int(input("lado c: "))
+if (a < b + c) and (b < a + c) and (c < a + b):
+    if ( a == b) and (b == c):
+        print("triangulo equilatero")
+    else:
+        if (a == b) or (a == c) or (b == c):
+            print("triangulo isosceles")
+        else:
+            print("triangulo escaleno")
+else:
+        print("Não é triangulo")
 
 #ex01
 # preço = float(input("digite o preço do produto: "))
