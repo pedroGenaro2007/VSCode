@@ -1,9 +1,17 @@
-.Topo {
-display:flex;
-font-style: italic;
-font-family: 'Times New Roman', Times, serif;
-align-content: center;
-justify-content: center;
-border-style:round;
+#navbar {
+    display: flex;
+    color: gray;
+    justify-content: space-around;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+button{
+    background-color: blueviolet;
+    color:#fff;
+    cursor: pointer;
+    width:60px;
+    height:40px;
+    border-style:none;
 }
 
